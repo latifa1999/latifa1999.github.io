@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Page 2</title>
+		<link rel="stylesheet" type="text/css" href="Page1.css">
+	</head>
+		<script type="text/javascript">
+			function calcul(){
+			var note_math = Number(document.getElementById("mat").value);
+			var note_info = Number(document.getElementById("inf").value);
+
+			var res = (note_info + note_math)/2;
+
+			
+			alert(res);
+  			}
+		</script>
+		<form>
+			<fieldset>
+				<legend>PAGE 2</legend>
+					<p><label>Etudiant :</label>
+						<input type="text" name="size">
+					</p>
+
+					<p><label>Math :</label>
+						<input type="number" name="nombre" id="mat">
+					</p>
+
+					<p><label>Informatique :</label>
+						<input type="number" name="nombre" id="inf">
+					</p>
+
+					<p><label>
+						<div>
+								<button id="poo"> Annuler </button>
+							
+				
+								<button type="button" onclick="calcul()">Resultat</button> 
+						</div>
+					</label></p>
+			</fieldset>
+		</form>
+
+	</body>
+
+</html>
+	

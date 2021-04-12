@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Page 1</title>
+		<link rel="stylesheet" type="text/css" href="Page1.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var a = "latifa";
+
+			function myFunction() {
+				var b = document.getElementById("mp1").value ;
+
+				if(a != b){
+					alert('mot de passe incorrect');
+				}
+				else{
+					window.location.assign("Page2.html");
+				}
+			}						
+		</script>
+
+		<form>
+			<fieldset>
+				<legend>PAGE 1</legend>
+					<p><label>Identifiant :</label>
+						<input type="text" name="size" id="mp2">
+					</p>
+
+					<p><label>Mot de passe :</label>
+						<input type="password" name="monpass" id="mp1">
+					</p>
+
+					<p><label>
+						<div>
+								<button id="poo"> Annuler </button>
+							
+				
+								<button type="button" id="po" onclick="myFunction()">valider</button> 
+						</div>
+					</label></p>
+			</fieldset>
+		</form>
+
+	</body>
+
+</html>
+				
