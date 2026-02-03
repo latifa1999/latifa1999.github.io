@@ -485,7 +485,7 @@ section {
     border: 2px solid var(--accent-1);
     color: var(--color-text-primary);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.60rem;
+    font-size: 0.80rem;
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
